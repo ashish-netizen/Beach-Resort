@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+} 
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url('pic3.jpeg') ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.nav_menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_menu a{
+    text-decoration: none;
+    color: floralwhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+
+
+}
+
+.nav_menu a:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+
+.motto{
+    position:absolute;
+    width: 1200;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+h1{
+    color: wheat;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 275px;
+    margin-left: 340px;
+
+}
+
+.book_now{
+    margin-top:30px;
+    margin-left: 570px;
+}
+
+.btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: orange;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.book_now :hover{
+    background-color: darkolivegreen;
+    transform: scale(1.5);
+} 
